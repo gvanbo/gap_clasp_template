@@ -1,6 +1,12 @@
-# GAS_Project
+# Google App Scripts CLASP Template
 
-This is a template repository for Google App Script projects.
+This is a template repository for Google App Script projects using the clasp CLI interface.
+This method will let you develop App Script Projects locally. 
+
+clasp user guide available at https://developers.google.com/apps-script/guides/clasp
+
+clasp repo available at https://github.com/google/clasp
+
 
 ## Getting Started
 
