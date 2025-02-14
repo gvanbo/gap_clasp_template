@@ -32,3 +32,22 @@ This is a template repository for Google App Script projects.
    ```
    clasp push
    ```
+
+# Deployment Instructions
+
+1. Install the clasp CLI globally:
+   ```bash
+   npm install -g @google/clasp
+   ```
+
+2. Login to your Google account:
+   ```bash
+   clasp login
+   ```
+
+3. Push your code:
+   ```bash
+   clasp push
+   ```
+
+4. (Optional) To publish this project as a library template, open the Google Apps Script editor and under "Publish" → "Deploy as library", follow the prompts to publish and get your Script ID.

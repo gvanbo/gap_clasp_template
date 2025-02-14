@@ -1,11 +1,21 @@
 {
-  "timeZone": "America/New_York",
+  "timeZone": "America/Denver",
   "dependencies": {
     "enabledAdvancedServices": [
       {
         "userSymbol": "Sheets",
         "serviceId": "sheets",
         "version": "v4"
+      },
+      {
+        "userSymbol": "Drive",
+        "serviceId": "drive",
+        "version": "v2"
+      },
+      {
+        "userSymbol": "Forms",
+        "serviceId": "forms",
+        "version": "v1"
       }
     ]
   },
