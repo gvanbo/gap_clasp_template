@@ -1,18 +1,14 @@
 {
   "name": "my_project",
-  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
   "postCreateCommand": "npm install",
-  "customizations": {
-    "vscode": {
-      "settings": {
-            "terminal.integrated.shell.linux": "/bin/bash"
-          }
-        },
-      "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
-      ]
-    },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
   "forwardPorts": [],
-  "remoteUser": "vscode"
+  "remoteUser": "node"
 }
