@@ -1,0 +1,11 @@
+{
+  "name": "gas_project",
+  "version": "1.0.0",
+  "description": "Google Apps Script template",
+  "scripts": {
+    "deploy": "clasp push"
+  },
+  "dependencies": {
+    "@google/clasp": "^2.4.1"
+  }
+}
