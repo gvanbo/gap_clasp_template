@@ -1,11 +1,27 @@
 {
-  "name": "my_project",
-  "version": "1.0.0",
-  "description": "Google Apps Script template",
-  "scripts": {
-    "deploy": "clasp push"
-  },
   "dependencies": {
-    "@google/clasp": "^2.5.0"
+    "@types/google-apps-script": "^1.0.96"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-googleappsscript": "^1.0.0",
+    "prettier": "^3.5.1",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "build": "tsc --outDir src",
+    "clean": "rm -rf dist",
+    "deploy": "clasp push --force",
+    "format": "prettier --write 'src/**/*.ts'",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "login": "clasp login",
+    "logout": "clasp logout",
+    "open": "clasp open",
+    "predeploy": "npm run lint && npm run build",
+    "pull": "clasp pull",
+    "push": "clasp push",
+    "start": "clasp run",
+    "sync": "clasp pull && clasp push"
   }
 }
