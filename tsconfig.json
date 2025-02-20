@@ -10,7 +10,8 @@
     "rootDir": "./src",
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "types": ["google-apps-script"]
   },
   "include": [
     "src/**/*.ts"
